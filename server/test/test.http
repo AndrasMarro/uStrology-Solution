@@ -1,0 +1,12 @@
+GET http://localhost:3000/ustrology/users
+###
+GET http://localhost:3000/ustrology/users?username=johnsmith
+###
+GET http://localhost:3000/ustrology/users/7
+###
+GET http://localhost:3000/ustrology/users?email=john@example.com
+###
+GET http://localhost:3000/ustrology/horoscopes
+###
+GET http://localhost:3000/ustrology/horoscopes?sign=Taurus
+###

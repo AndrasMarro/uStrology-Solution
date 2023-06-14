@@ -1,0 +1,30 @@
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "Amgad@Darwish.at",
+    "password": "deez"
+}
+###
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "username": "AmgadDarwish",
+    "email": "Amgad@Darwish.at",
+    "password": "deez"
+}
+###
+GET http://localhost:3000/auth/logout
+###
+GET http://localhost:3000/auth/users/6/password
+###
+DELETE http://localhost:3000/auth/users/7
+###
+PATCH http://localhost:3000/auth/users/7
+Content-Type: application/json
+
+{
+    "password": "WWord"
+}
+###
