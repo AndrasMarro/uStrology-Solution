@@ -13,7 +13,7 @@ export const useUserStore = defineStore(
     const saveUserData = ({ user_id, username }) => {
       user.value.user_id = user_id;
       user.value.username = username;
-      console.log(user.value);
+      // console.log(user.value);
     };
 
     const logout = async () => {
